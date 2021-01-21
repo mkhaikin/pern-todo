@@ -1,0 +1,25 @@
+{
+  "name": "pern-todo",
+  "version": "1.0.0",
+  "description": "postgres express node todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhaikin/pern-todo.git"
+  },
+  "keywords": [
+    "postgres",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "Michael Khaikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhaikin/pern-todo/issues"
+  },
+  "homepage": "https://github.com/mkhaikin/pern-todo#readme"
+}
