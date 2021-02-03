@@ -28,7 +28,7 @@ app.post("/todos", async(req,res,next)=>{
 app.get('/todos', async(req,res)=>{
     try {
         const allTodos = await pool.query('SELECT * FROM todo');
-        res.json(allTodos.rows)
+        res.json(allTodos.rows);
     } catch (err) {
         console.error(error.message)
     }
